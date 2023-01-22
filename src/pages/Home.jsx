@@ -1,4 +1,5 @@
 import React from 'react'
+import Experience from '../components/Experience'
 import LandingPage from '../components/LandingPage'
 import Service from '../components/Service'
 import Skills from '../components/Skills'
@@ -11,6 +12,7 @@ const Home = () => {
       <LandingPage/>
       <Service/>
       <Skills/>
+      <Experience/>
     </section>
   )
 }

@@ -5,22 +5,22 @@ const Service = () => {
     {
       iconTag: <FaMobileAlt/>,
       title: 'Mobile developer',
-      content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione voluptatem, laudantium nihil asperiores quasi consequuntur ipsam vitae aliquam cumque assumenda? Tempora, adipisci. A aliquam rerum hic illum nobis dolore.'
+      content: 'As a mobile developer with expertise in Flutter, I provide a wide range of services to help businesses and individuals create high-performance, visually appealing, and user-friendly mobile applications. My expertise in the Flutter framework, along with my knowledge of mobile development best practices, allows me to create apps that run smoothly on both iOS and Android devices.'
     },
     {
       iconTag: <FaHtml5/>,
       title: 'Website developer',
-      content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione voluptatem, laudantium nihil asperiores quasi consequuntur ipsam vitae aliquam cumque assumenda? Tempora, adipisci. A aliquam rerum hic illum nobis dolore.'
+      content: 'As a website developer with expertise in React, I provide a wide range of services to help businesses and individuals create high-performance, visually appealing, and user-friendly websites. My expertise in React and its ecosystem allows me to create fast and responsive web applications that provide a seamless user experience.'
     },
     {
       iconTag: <FaServer/>,
       title: 'Backend developer',
-      content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione voluptatem, laudantium nihil asperiores quasi consequuntur ipsam vitae aliquam cumque assumenda? Tempora, adipisci. A aliquam rerum hic illum nobis dolore.'
+      content: 'I specialize in developing backend systems for various types of applications such as e-commerce, social media, and other business-related apps. I use Node.js and its popular frameworks such as Express, Nest.js, and Koa.js to create server-side logic and handle database operations. I also have experience working with databases such as MongoDB, MySQL, and Firebase, and using them to store and retrieve data.'
     },
   ];
   return (
     <div className='service' id='service'>
-      <h2>What I do</h2>
+      <h2>Service</h2>
       <div className="service-divs-wrapper">
         {
           listOfServices.map(({ content, iconTag, title }) => {

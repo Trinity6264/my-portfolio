@@ -1,31 +1,30 @@
 import React from 'react'
 import '../style/Navbar_style.css'
 import { Link } from 'react-router-dom'
-import {FaRegHandSpock} from 'react-icons/fa'
-import {AiOutlineMenu} from 'react-icons/ai'
+import { FaRegHandSpock } from 'react-icons/fa'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
     return (
         <nav>
             <div className="logo-wrapper">
-                <Link to={'/'}><FaRegHandSpock/></Link>
+                <Link to={'/'}><FaRegHandSpock /></Link>
             </div>
             <div className="menu-wrapper">
-                <AiOutlineMenu/>
+                <AiOutlineMenu />
             </div>
             <ul>
                 <li>
-                    <Link to={'/'}>Home</Link>
+                    <a href="#intro-main">Home</a>
                 </li>
                 <li>
                     <a href="#service">Service</a>
-                    {/* <Link to={'service'}>Service</Link> */}
                 </li>
                 <li>
-                    <Link to={'#skills'}>Skills</Link>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <Link to={'#experience'}>Experience</Link>
+                    <a href="#experience">Experience</a>
                 </li>
                 <li>
                     <Link to={'#contact'}>Contact</Link>
@@ -53,7 +52,7 @@ const Navbar = () => {
 
                 </li>
             </div>
-           
+
         </nav>
     )
 }

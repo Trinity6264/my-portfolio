@@ -3,7 +3,7 @@ import ProfilePic from '../assets/bg.jpg'
 import { FaLinkedin, FaTwitterSquare, FaGithubSquare } from 'react-icons/fa';
 const LandingPage = () => {
     return (
-        <div className="intro-main">
+        <div className="intro-main" id='intro-main'>
             <div className="intro-self">
                 <h2><span className='im'>I'm</span> Amoah Alexander</h2>
                 <br />
@@ -16,7 +16,7 @@ const LandingPage = () => {
                         </a>
                     </span>
                     <span className='linkedin'>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/amoah-alexander-a52660210/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
                     </span>
