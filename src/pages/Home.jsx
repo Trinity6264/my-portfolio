@@ -1,6 +1,7 @@
 import React from 'react'
 import LandingPage from '../components/LandingPage'
 import Service from '../components/Service'
+import Skills from '../components/Skills'
 import '../style/home_style.css'
 
 
@@ -9,6 +10,7 @@ const Home = () => {
     <section className='home' id='home'>
       <LandingPage/>
       <Service/>
+      <Skills/>
     </section>
   )
 }
