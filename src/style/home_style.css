@@ -10,15 +10,14 @@
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 5em;
+  /* height: 35em; */
 }
-
 
 .intro-self {
   flex: 1;
   margin-right: 3em;
-}
-.intro-self > h2 {
-  font-size: 2.3em;
+  max-height: max-content;
+  line-height: 2.2em;
 }
 
 .intro-self .im {
@@ -27,16 +26,16 @@
 .intro-self p {
   line-height: 2em;
 }
-.intro-self .social-links  svg{
-    font-size: 2em;
-    color: var(--blackColor);
-    transition: all 1000ms ease;
+.intro-self .social-links svg {
+  font-size: 2em;
+  color: var(--blackColor);
+  transition: all 1000ms ease;
 }
-.intro-self .social-links  svg:hover{
-    transform: scale(1.3) rotateX(360deg);
+.intro-self .social-links svg:hover {
+  transform: scale(1.3) rotateX(360deg);
 }
-.intro-self .social-links  .linkedin{
-    margin-left: 2em;
+.intro-self .social-links .linkedin {
+  margin-left: 2em;
 }
 
 .intro-pic {
@@ -48,31 +47,94 @@
   object-fit: fill;
 }
 
+/* Service */
+
+.service {
+  margin-top: 5.3em;
+  margin-bottom: 5.3em;
+}
+
+.service .service-divs-wrapper {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service .service-divs-wrapper .service-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 30%;
+}
+
+.service .service-divs-wrapper .service-wrapper > svg {
+  font-size: 2.4em;
+}
+.service .service-divs-wrapper .service-wrapper > h3 {
+  margin: .5em 0;
+}
+.service .service-divs-wrapper .service-wrapper > p {
+  color: rgb(116, 112, 112);
+  text-align: justify;
+  line-height: 1.2em;
+}
+
 /* Phone screen */
 
-@media  screen and (max-width: 769px) {
-    .intro-main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-        padding-top: 1em;
-        margin: auto;
-      }
-      .intro-self {
-        margin-top: 2em;
-        margin-left: 2em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .intro-self > p {
-        margin-top: 1em;
-        text-align: justify;
-      }
-      .intro-self > .social-links {
-        margin: 1em 0;
-        
-      }
+@media screen and (max-width: 769px) {
+  .intro-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-top: 1em;
+    margin: auto;
+  }
+  .intro-self {
+    margin-top: 2em;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-self > p {
+    margin-top: 1em;
+    text-align: justify;
+  }
+  .intro-self > .social-links {
+    margin: 1em 0;
+  }
+  .intro-pic {
+    width: 24em;
+  }
+  .intro-pic > img {
+    height: 20rem;
+    display: block;
+    object-fit: fill;
+  }
+
+  /* services */
+
+  .service {
+    margin-top: 2.3em;
+    margin-bottom: 2.3em;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .service .service-divs-wrapper {
+    margin-top: 2em;
+    flex-direction: column;
+    width: 81%;
+    margin: auto;
+  }
+  .service .service-divs-wrapper .service-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 100%;
+    margin-top: 2em;
+  }
 }

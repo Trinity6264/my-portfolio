@@ -7,11 +7,11 @@ const LandingPage = () => {
             <div className="intro-self">
                 <h2><span className='im'>I'm</span> Amoah Alexander</h2>
                 <br />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat veritatis unde aperiam ad voluptatem vitae aut quos. Suscipit reiciendis rerum architecto, magni consectetur aliquid consequuntur fugiat cum iusto? Odio voluptatibus ullam aliquam velit a, blanditiis fugiat corporis quo quaerat magni quod laborum illo. Quae dolor doloremque ducimus quibusdam rem nisi corrupti maiores error cumque, eveniet esse reprehenderit assumenda fugiat vero at voluptatum ipsum cupiditate delectus tempore in facere? Explicabo et qui blanditiis debitis. Quo eos aliquam quasi, fuga repellat sequi architecto maiores deleniti incidunt eveniet laudantium laboriosam, debitis ex id facere illo aut. Consectetur, maxime voluptatibus dolor amet reiciendis vitae!</p>
+                <p>I am a JavaScript and Flutter developer. I specialize in building web and mobile applications that are both visually appealing and highly functional. My expertise in JavaScript and HTML/CSS allows me to create responsive and dynamic web experiences, while my knowledge of Flutter and the Dart programming language enables me to develop high-performance mobile apps for both iOS and Android platforms. I am always looking for new challenges and opportunities to improve my skills and deliver the best possible results for my clients. Please take a look at my portfolio to see some of my past projects and the technologies I have used.</p>
                 <br />
                 <div className="social-links">
                     <span>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/kObi_plAy" target="_blank" rel="noopener noreferrer">
                             <FaTwitterSquare />
                         </a>
                     </span>
@@ -21,7 +21,7 @@ const LandingPage = () => {
                         </a>
                     </span>
                     <span className='linkedin'>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Trinity6264" target="_blank" rel="noopener noreferrer">
                             <FaGithubSquare />
                         </a>
                     </span>

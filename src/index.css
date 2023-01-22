@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 :root{
   --bgWhite: #f8f8f8;
   --blackColor: #212121;
@@ -9,16 +9,17 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 ::selection{
   background-color: var(--blackColor);
   color: var(--bgWhite);
 }
 
+
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bgWhite);
@@ -26,6 +27,12 @@ body {
 }
 img{
   width: 100%;
+}
+h2{
+  font-size: 2.3em;
+}
+h3{
+  font-size: 1.5em;
 }
 
 code {

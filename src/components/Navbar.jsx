@@ -18,7 +18,8 @@ const Navbar = () => {
                     <Link to={'/'}>Home</Link>
                 </li>
                 <li>
-                    <Link to={'#service'}>Service</Link>
+                    <a href="#service">Service</a>
+                    {/* <Link to={'service'}>Service</Link> */}
                 </li>
                 <li>
                     <Link to={'#skills'}>Skills</Link>
