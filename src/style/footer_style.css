@@ -1,0 +1,111 @@
+footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 0;
+  margin-top: 5em;
+  display: flex;
+  column-gap: 10em;
+  justify-content: space-between;
+}
+
+/* footer  */
+
+footer .footer-first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+footer .footer-first .footer-first-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .footer-first .footer-first-wrapper .follow > p {
+  color: gray;
+  padding: 0.5em 0;
+}
+
+
+
+footer .footer-first .footer-first-wrapper .follow .social-links > svg {
+  font-size: 2.2em;
+  margin-right: .3em;
+}
+
+footer .footer-second {
+  width: 100%;
+  width: 60%;
+  padding: 1em;
+  background-color: var(--blackColor);
+}
+
+footer .footer-second form {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-second form input {
+  background-color: var(--blackColor);
+  color: var(--bgWhite);
+  padding: 0.8em 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+footer .footer-second form .description {
+  padding: 2.2em 0;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+.btn-wrapper button {
+  outline: none;
+  border: none;
+  padding: 0.5em 1.4em;
+  border-radius: 3px;
+}
+.btn-wrapper button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  footer {
+    width: 80%;
+    padding: 2em 0;
+    margin-top: 2em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .footer-first {
+    width: 100%;
+    align-items: center;
+  }
+  footer .footer-first h3 {
+    margin-bottom: 0.5em;
+  }
+
+  .footer-first-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-first-wrapper .follow {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-second {
+    margin-top: 2em;
+    width: 100%;
+  }
+}
