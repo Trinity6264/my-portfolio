@@ -80,7 +80,7 @@ const Skills = () => {
 
     return (
         <div className='skills' id='skills'>
-            <h2>Skills</h2>
+            <h2>Tech</h2>
             <hr />
             <div className="skills-container">
                 {skillsData.map(({ icon, title }) => {

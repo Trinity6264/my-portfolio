@@ -57,8 +57,10 @@
 }
 .intro-pic > img {
   height: 25rem;
-  display: block;
+  display: inline-block;
   object-fit: fill;
+  border-radius: 20px;
+  position: relative;
 }
 
 /* Service */
@@ -162,6 +164,7 @@
   .intro-self > p {
     margin-top: 0;
     text-align: justify;
+    line-height: 1em;
   }
   .intro-self > .social-links {
     margin: 1em 0;

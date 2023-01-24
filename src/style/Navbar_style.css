@@ -54,11 +54,11 @@ nav ul li a:hover {
   height: 100vh;
   width: 70%;
   top: 0;
-  right: 0;
+  left: 150%;
   background-color: var(--blackColor);
-  display: none;
   padding-left: 1em;
   padding-top: 2em;
+  transition: all 400ms ease;
 }
 .mobile-nav li {
   list-style: none;

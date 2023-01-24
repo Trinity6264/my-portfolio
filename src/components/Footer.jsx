@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithubSquare, FaTwitterSquare } from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-first">
+      <div className="footer-first" id='contact'>
         <h3>Just say hi</h3>
         <p>I'm always open to discuss your project and talk about new things</p>
         <div className="footer-first-wrapper">
