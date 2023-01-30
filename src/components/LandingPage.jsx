@@ -9,7 +9,11 @@ const LandingPage = () => {
                 <h2><span className='im'>I'm</span> Amoah Alexander</h2>
                 <br />
                 <p>I am a JavaScript and Flutter developer. I specialize in building web and mobile applications that are both visually appealing and highly functional. My expertise in JavaScript and HTML/CSS allows me to create responsive and dynamic web experiences, while my knowledge of Flutter and the Dart programming language enables me to develop high-performance mobile apps for both iOS and Android platforms. I am always looking for new challenges and opportunities to improve my skills and deliver the best possible results for my clients. Please take a look at my portfolio to see some of my past projects and the technologies I have used.</p>
+                <div className="home-btn-wrapper">
                 <Link to={'/projects'} id='Projects'>View My Projects</Link>
+                <a href="#" id='cv-btn'>Download CV</a>
+                </div>
+              
                 <br />
                 <div className="social-links">
                     <span>

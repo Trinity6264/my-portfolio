@@ -20,6 +20,25 @@
   line-height: 2.2em;
 }
 
+.intro-self .home-btn-wrapper {
+  margin-top: 1em;
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+.intro-self .home-btn-wrapper #cv-btn {
+  border: 1px solid var(--blackColor);
+  padding: 0.2em 1em;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--blackColor);
+  transition: all 300ms ease;
+}
+.intro-self .home-btn-wrapper #cv-btn:hover {
+  background-color: var(--blackColor);
+  color: var(--bgWhite);
+}
+
 .intro-self .im {
   font-weight: 400;
 }
@@ -28,9 +47,9 @@
 }
 .intro-self #Projects {
   background-color: var(--blackColor);
-  padding: .2em 1em;
-  margin: .4em 0;
-  border-radius: 7em;
+  padding: 0.2em 1em;
+  margin: 0.4em 0;
+  border-radius: 10px;
   display: inline-block;
   text-decoration: none;
   color: var(--bgWhite);
@@ -151,7 +170,7 @@
   }
 
   .intro-self {
-    margin-top: .5em;
+    margin-top: 0.5em;
     margin-left: 2em;
     display: flex;
     flex-direction: column;
@@ -235,7 +254,7 @@
     margin: 1em 0;
   }
   .experience h4 {
-    margin: .2em 0;
+    margin: 0.2em 0;
   }
   .experience p {
     text-align: justify;
